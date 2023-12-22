@@ -16,7 +16,6 @@ const config: Config = {
       },
       fontFamily: {
         'theme': ['"bebas neue"', 'sans-serif'],
-        'rubik-scribble': ['"rubik scribble"', 'mono'],
       }
     },
   },

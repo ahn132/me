@@ -41,7 +41,7 @@ export default async function BlogLayout({children}) {
     const allPosts = await getSortedPostsData()
 
     return (
-        <div className="flex px-5 justify-center gap-20">
+        <div className="flex p-3 justify-center gap-20">
             <div className="flex-0">
                 {children}
             </div>
