@@ -46,12 +46,19 @@ export default async function BlogLayout({children}) {
                 {children}
             </div>
             <div className="flex-none">
-                <ul className="menu">
-                    {allPosts.map(({id, date, title}) => (
-                        <Link href={`/blog/${id}`} className="link" key={id}>
-                            {id}
-                        </Link>
-                    ))}
+                <ul className="menu bg-base-200 w-56 rounded-box">
+                    <li>
+                        <h2 className="menu-title">Posts</h2>
+                        <ul>
+                            {allPosts.map(({id, date, title}) => (
+                                <li>
+                                    <Link href={`/blog/${id}`} key={id}>
+                                        {id}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
