@@ -51,8 +51,8 @@ export default async function BlogLayout({children}) {
                         <h2 className="menu-title">Posts</h2>
                         <ul>
                             {allPosts.map(({id, date, title}) => (
-                                <li>
-                                    <Link href={`/blog/${id}`} key={id}>
+                                <li key={id}>
+                                    <Link href={`/blog/${id}`}>
                                         {id}
                                     </Link>
                                 </li>

@@ -46,8 +46,8 @@ export default function Portfolio() {
                         responsibility is
                         holding laboratory sessions to aid students with homework, upcoming exams, and general
                         questions. In addition,
-                        I answer students' questions on the class's online discussion platform, as well as grading
-                        students' homework
+                        I answer students&apos; questions on the class&apos;s online discussion platform, as well as grading
+                        students&apos; homework
                         submissions.
                     </div>
                     <hr/>
@@ -68,8 +68,8 @@ export default function Portfolio() {
                             Software Engineer Co-op @ <a href="https://www.collinsaerospace.com/" className='underline'>Collins
                             Aerospace</a>
                         </div>
-                        This summer/fall, I'll be working at Collins Aerospace in the Missions System Division. The team
-                        I'll be working on primarily develops Java software applications that run on Linux workstations
+                        This summer/fall, I&apos;ll be working at Collins Aerospace in the Missions System Division. The team
+                        I&apos;ll be working on primarily develops Java software applications that run on Linux workstations
                         to support mission planning, execution, and debrief for Navy & Air Force Air Combat Training
                         Exercises.
                     </div>
@@ -87,7 +87,7 @@ export default function Portfolio() {
                     </div>
                     <div className="timeline-end mb-10">
                         <time className="font-mono italic">?</time>
-                        <div className="text-lg font-black">What's Next?</div>
+                        <div className="text-lg font-black">What&apos;s Next?</div>
                         I hope to intern again in the summer before my senior year of college. After graduation,
                         I hope to work as a full-time software engineer.
                     </div>
