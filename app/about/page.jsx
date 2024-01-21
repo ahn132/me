@@ -21,6 +21,7 @@ export default async function About() {
                         feel free to email me at <a href="mailto:ahn132@purdue.edu">ahn132@purdue.edu</a> and/or
                         contact me through social media.
                     </p>
+                    <p>This website was designed with Next.js, TailwindCSS, and daisyUI.</p>
 
                 </article>
             </div>
@@ -34,17 +35,17 @@ export default async function About() {
                 />
                 <div className="flex justify-evenly mt-3">
                     <div className="flex-none">
-                        <a href="https://www.linkedin.com/in/sun-ahn-b92431237/">
+                        <a href="https://www.linkedin.com/in/sun-ahn-b92431237/" target="_blank" rel="noreferrer">
                             <FontAwesomeIcon icon={faLinkedin} className="w-12"/>
                         </a>
                     </div>
                     <div>
-                        <a href="https://www.instagram.com/sun.ahhhn/?hl=en">
+                        <a href="https://www.instagram.com/sun.ahhhn/?hl=en" target="_blank" rel="noreferrer">
                             <FontAwesomeIcon icon={faInstagram} className="w-12"/>
                         </a>
                     </div>
                     <div>
-                        <a href="https://github.com/ahn132">
+                        <a href="https://github.com/ahn132" target="_blank" rel="noreferrer">
                             <FontAwesomeIcon icon={faGithub} className="w-12"/>
                         </a>
                     </div>
